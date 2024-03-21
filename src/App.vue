@@ -18,9 +18,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use "./assets/scss/main.scss";
 </style>
