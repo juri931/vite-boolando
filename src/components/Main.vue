@@ -3,6 +3,7 @@ export default {};
 </script>
 
 <template>
+  <h1>MAIN</h1>
   <!-- <main>
     <div class="container">
       <div class="product">
@@ -101,4 +102,9 @@ export default {};
 
 <style lang="scss" scoped>
 @use "../assets/scss/main.scss";
+h1 {
+  display: block;
+  margin: 0 auto;
+  color: brown;
+}
 </style>
