@@ -12,13 +12,11 @@ export default {
 </script>
 
 <template>
-  <!-- <body> -->
   <Header />
   <Main />
   <Footer />
-  <!-- </body> -->
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "./assets/scss/main.scss";
 </style>

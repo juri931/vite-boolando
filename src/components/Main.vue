@@ -100,9 +100,10 @@ export default {};
   </main> -->
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "../assets/scss/main.scss";
 h1 {
+  height: 300px;
   display: block;
   margin: 0 auto;
   color: brown;
