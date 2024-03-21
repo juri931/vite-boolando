@@ -12,11 +12,11 @@ export default {
 </script>
 
 <template>
-  <body>
-    <Header />
-    <Main />
-    <Footer />
-  </body>
+  <!-- <body> -->
+  <Header />
+  <Main />
+  <Footer />
+  <!-- </body> -->
 </template>
 
 <style lang="scss" scoped>
