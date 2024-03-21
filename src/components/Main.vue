@@ -104,6 +104,8 @@ export default {};
 
 <style lang="scss" scoped>
 @use "../assets/scss/main.scss";
+
+// TODO: DEBUG
 h1 {
   margin: 0 auto;
   color: brown;
@@ -112,4 +114,5 @@ div {
   text-align: center;
   margin: 50% auto;
 }
+// TODO: DEBUG END
 </style>
