@@ -5,11 +5,11 @@ const headerMenu = {
       href: "#",
     },
     {
-      text: "Uomo",
+      text: "Donna",
       href: "#",
     },
     {
-      text: "Uomo",
+      text: "Bambino",
       href: "#",
     },
   ],
@@ -17,7 +17,7 @@ const headerMenu = {
 const socialMenu = {
   social: [
     {
-      text: '<i class="fa-brands fa-twitter"></i>',
+      text: '<i class="bi bi-twitter"></i>',
       href: "#",
     },
     {
