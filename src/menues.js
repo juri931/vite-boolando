@@ -16,7 +16,7 @@ const headerMenu = {
   ],
   icons: [
     {
-      text: "icon",
+      text: '<i class="fa-regular fa-user"></i>',
       href: "#",
     },
     {
@@ -34,7 +34,7 @@ const headerMenu = {
 const socialMenu = {
   social: [
     {
-      text: "icon",
+      text: '<i class="fa-regular fa-user"></i>',
       href: "#",
     },
     {
