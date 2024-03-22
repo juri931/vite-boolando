@@ -16,11 +16,14 @@ header {
 .top {
   display: flex;
   width: 80%;
-  max-width: 1200px;
   justify-content: space-between;
   height: 25px;
   align-items: center;
-  flex-basis: auto;
+  max-width: 1000px;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 ul {

@@ -1,3 +1,4 @@
+// Header
 const headerMenu = {
   main: [
     {
@@ -13,7 +14,23 @@ const headerMenu = {
       href: "#",
     },
   ],
+  icons: [
+    {
+      text: "icon",
+      href: "#",
+    },
+    {
+      text: "icon",
+      href: "#",
+    },
+    {
+      text: "icon",
+      href: "#",
+    },
+  ],
 };
+
+// Footer
 const socialMenu = {
   social: [
     {
