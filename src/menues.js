@@ -17,23 +17,23 @@ const headerMenu = {
 const socialMenu = {
   social: [
     {
-      text: '<i class="bi bi-twitter"></i>',
+      text: "icon",
       href: "#",
     },
     {
-      text: '<i class="fa-brands fa-twitter"></i>',
+      text: "icon",
       href: "#",
     },
     {
-      text: '<i class="fa-brands fa-twitter"></i>',
+      text: "icon",
       href: "#",
     },
     {
-      text: '<i class="fa-brands fa-twitter"></i>',
+      text: "icon",
       href: "#",
     },
     {
-      text: '<i class="fa-brands fa-twitter"></i>',
+      text: "icon",
       href: "#",
     },
   ],
