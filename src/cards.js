@@ -5,7 +5,7 @@ const cards = {
       imgHover: "img/1b.webp",
       discount: "-50%",
       eco: "Sostenibile",
-      heart: "&hearts;",
+      heart: `&hearts;`,
       href: "#",
       brand: "Levi's",
       desc: "relaxed fit tee unisex",
