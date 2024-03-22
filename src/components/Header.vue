@@ -23,7 +23,7 @@ export default {
       </ul>
 
       <!-- Logo -->
-      <img class="logo" src="/src/assets/img/boolean-logo.png" alt="logo" />
+      <img class="logo" src="../../public/img/boolean-logo.png" alt="logo" />
 
       <!-- Icons -->
       <div class="icons">

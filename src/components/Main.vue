@@ -1,12 +1,30 @@
 <script>
-export default {};
+import { cards } from "../cards";
+
+export default {
+  computed: {
+    cards() {
+      return cards.main;
+    },
+  },
+};
+console.log(cards.main);
 </script>
 
 <template>
   <main>
     <div class="container">
-      <div class="product">
-        <img class="primary-img" src="../assets/img/1.webp" alt="" />
+      <div class="product" v-for="(item, index) in cards" :key="`m-${item}`">
+        <img class="primary-img" :src="item.img" />
+        <img class="img-hover" :src="item.imgHover" />
+        <div class="disc-eco">
+          <span class="discount">{{ item.discount }}</span>
+          <span class="eco">{{ item.eco }}</span>
+        </div>
+        <span class="heart">{{ item.heart }}</span>
+        <a :href="item.href">{{ item.text }}</a>
+
+        <!-- <img class="primary-img" src="../assets/img/1.webp" alt="" />
         <img class="img-hover" src="../assets/img/1b.webp" alt="" />
         <div class="disc-eco">
           <span class="discount">-50% </span>
@@ -94,7 +112,7 @@ export default {};
           <span class="desc">voglia di colori pastello</span>
           <span class="price-new">129,99€</span>
           <span class="price-old">184,99€</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </main>
