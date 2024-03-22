@@ -3,19 +3,17 @@ export default {};
 </script>
 
 <template>
-  <div>
-    <h1>MAIN</h1>
-  </div>
-  <!-- <main>
+  <main>
     <div class="container">
       <div class="product">
         <img class="primary-img" src="../assets/img/1.webp" alt="" />
         <img class="img-hover" src="../assets/img/1b.webp" alt="" />
-        <div>
-          <span class="discount">-50%</span>
+        <div class="disc-eco">
+          <span class="discount">-50% </span>
           <span class="eco">Sostenibilità</span>
-          <span class="heart">&hearts;</span>
         </div>
+        <span class="heart">&hearts;</span>
+
         <div class="info">
           <span class="brand">Levi's</span>
           <span class="desc">relaxed fit tee unisex</span>
@@ -27,10 +25,10 @@ export default {};
       <div class="product">
         <img class="primary-img" src="../assets/img/2.webp" alt="" />
         <img class="img-hover" src="../assets/img/2b.webp" alt="" />
-        <div>
+        <div class="disc-eco">
           <span class="discount">-30%</span>
-          <span class="heart">&hearts;</span>
         </div>
+        <span class="heart">&hearts;</span>
         <div class="info">
           <span class="brand">Guess</span>
           <span class="desc">roses tee</span>
@@ -42,10 +40,10 @@ export default {};
       <div class="product">
         <img class="primary-img" src="../assets/img/3.webp" alt="" />
         <img class="img-hover" src="../assets/img/3b.webp" alt="" />
-        <div>
+        <div class="disc-eco">
           <span class="discount">-30%</span>
-          <span class="heart">&hearts;</span>
         </div>
+        <span class="heart">&hearts;</span>
         <div class="info">
           <span class="brand">Come Zucchero Filato</span>
           <span class="desc">voglia di colori pastello</span>
@@ -57,11 +55,11 @@ export default {};
       <div class="product">
         <img class="primary-img" src="../assets/img/4.webp" alt="" />
         <img class="img-hover" src="../assets/img/4b.webp" alt="" />
-        <div>
+        <div class="disc-eco">
           <span class="discount">-50%</span>
           <span class="eco">Sostenibilità</span>
-          <span class="heart">&hearts;</span>
         </div>
+        <span class="heart">&hearts;</span>
         <div class="info">
           <span class="brand">Levi's</span>
           <span class="desc">tee unisex</span>
@@ -86,10 +84,10 @@ export default {};
       <div class="product">
         <img class="primary-img" src="../assets/img/6.webp" alt="" />
         <img class="img-hover" src="../assets/img/6b.webp" alt="" />
-        <div>
+        <div class="disc-eco">
           <span class="eco">Sostenibilità</span>
-          <span class="heart">&hearts;</span>
         </div>
+        <span class="heart">&hearts;</span>
 
         <div class="info">
           <span class="brand">Come Zucchero Filato</span>
@@ -99,20 +97,13 @@ export default {};
         </div>
       </div>
     </div>
-  </main> -->
+  </main>
 </template>
 
 <style lang="scss" scoped>
 @use "../assets/scss/main.scss";
 
-// TODO: DEBUG
-h1 {
-  margin: 0 auto;
-  color: brown;
-}
 div {
-  text-align: center;
   margin: 50% auto;
 }
-// TODO: DEBUG END
 </style>

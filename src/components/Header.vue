@@ -1,5 +1,12 @@
 <script>
-export default {};
+import { headerMenu } from "../menues";
+export default {
+  computed: {
+    mainMenu() {
+      return headerMenu.main;
+    },
+  },
+};
 </script>
 
 <template>
@@ -7,9 +14,9 @@ export default {};
     <nav class="top">
       <!-- Categories -->
       <ul>
-        <li><a href="">Donna</a></li>
-        <li><a href="">Uomo</a></li>
-        <li><a href="">Bambini</a></li>
+        <li v-for="(item, index) in mainMenu" :key="`m-${item}`">
+          <a :href="item.href">{{ item.text }}</a>
+        </li>
       </ul>
 
       <!-- Logo -->
