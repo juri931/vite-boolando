@@ -8,7 +8,6 @@ export default {
     },
   },
 };
-console.log(cards.main);
 </script>
 
 <template>
