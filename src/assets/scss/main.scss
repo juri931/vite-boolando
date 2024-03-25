@@ -22,31 +22,8 @@ header {
       margin: 0;
       padding: 0;
     }
-  }
-}
-
-ul {
-  display: flex;
-  list-style: none;
-}
-
-li {
-  a {
-    text-decoration: none;
-    margin: 0 5px;
-    color: white;
-    font-weight: bold;
-  }
-}
-
-.logo {
-  height: 25px;
-}
-
-.icons {
-  a {
-    svg {
-      color: white;
+    .logo {
+      height: 25px;
     }
   }
 }
