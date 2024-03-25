@@ -20,7 +20,7 @@ export default {
           <span class="discount">{{ item.discount }}</span>
           <span class="eco">{{ item.eco }}</span>
         </div>
-        <span class="heart">{{ item.heart }}</span>
+        <span class="heart">&hearts;</span>
 
         <div class="info">
           <span class="brand">{{ item.brand }}</span>
